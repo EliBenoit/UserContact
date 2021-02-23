@@ -1,7 +1,7 @@
 export const projectData = [
     {
         id:1,
-        img: "./public/images/profil-jeanne.jpg",
+        img: "./assets/images/profil-jeanne.jpg",
         background: "./public/images/background-jeanne.jpg",
         name: "Jeanne",
         phone: "06 21 00 17 18",
@@ -10,7 +10,7 @@ export const projectData = [
     },
     {
         id:2,
-        img: "./public/images/profil-eric.jpg",
+        img: "./assets/images/profil-eric.jpg",
         background: "./public/images/background-eric.jpg",
         name: "Eric",
         phone: "06 21 00 22 23",
@@ -19,7 +19,7 @@ export const projectData = [
     },
     {
         id:3,
-        img: "./public/images/profil-camille.jpg",
+        img: "./assets/images/profil-camille.jpg",
         background: "./public/images/background-camille.jpg",
         name: "Camille",
         phone: "06 21 00 18 19",
@@ -28,7 +28,7 @@ export const projectData = [
     },
     {
         id:4,
-        img: "./public/images/profil-samuel.jpg",
+        img: "./assets/images/profil-samuel.jpg",
         background: "./public/images/background-samuel.jpg",
         name: "Samuel",
         phone: "06 21 00 20 21",
