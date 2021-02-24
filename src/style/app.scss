@@ -10,12 +10,13 @@ $top: 85px;
     box-sizing: border-box;
     margin:0;
     padding: 0;
+    text-decoration: none;
+    color: $DarkGrey;
 }
 
 body{
     background-color: bisque;
     height: 100vh;
-    color: $DarkGrey;
     font-family: $Font;
     font-size: $FontSize;
 }

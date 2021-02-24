@@ -1,8 +1,11 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom'
 
 const GoBack = () => {
     return (
-            <img src="../assets/back.svg" alt="Retour en arrière" className="GoBack"/>
+            <NavLink to='/'>
+                <span className="GoBack">&#10092;</span>
+            </NavLink>
     );
 };
 
