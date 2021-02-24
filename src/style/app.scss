@@ -1,3 +1,10 @@
+/*VARIABLES*/
+$DarkGrey: #303030;
+$LightGrey: #c2c2c2;
+$Font: Arial;
+$FontSize: 12pt;
+
+/*RESET*/
 *{
     box-sizing: border-box;
     margin:0;
@@ -7,9 +14,13 @@
 body{
     background-color: bisque;
     height: 100vh;
+    color: $DarkGrey;
+    font-family: $Font;
+    font-size: $FontSize;
 }
 
-.container{
+/*CONTAINER*/
+.Container{
     max-width: 300px;
     height: 500px;
     margin: 0 auto;
@@ -18,8 +29,26 @@ body{
     padding: 15px 35px;
     background-color: #FFF;
     border-radius: 5px;
-    /*Ombre*/
+    /*SHADOW*/
     box-shadow: 1px 7px 27px -13px rgba(0,0,0,0.63);
     -webkit-box-shadow: 1px 7px 27px -13px rgba(0,0,0,0.63);
     -moz-box-shadow: 1px 7px 27px -13px rgba(0,0,0,0.63);
+}
+
+.ImgProfil{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+
+
+/*TEXT*/
+h1{
+    font-size: 16pt;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+label{
+    color: $LightGrey;
 }
