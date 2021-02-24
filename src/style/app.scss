@@ -2,7 +2,8 @@
 $DarkGrey: #303030;
 $LightGrey: #c2c2c2;
 $Font: Arial;
-$FontSize: 12pt;
+$FontSize: 11pt;
+$top: 85px;
 
 /*RESET*/
 *{
@@ -21,7 +22,7 @@ body{
 
 /*CONTAINER*/
 .Container{
-    max-width: 300px;
+    max-width: 350px;
     height: 500px;
     margin: 0 auto;
     position: relative;
@@ -35,18 +36,10 @@ body{
     -moz-box-shadow: 1px 7px 27px -13px rgba(0,0,0,0.63);
 }
 
-.ImgProfil{
-    height: 65px;
-    width: 65px;
-    border-radius: 50%;
-}
-
-
 /*TEXT*/
 h1{
     font-size: 16pt;
     font-weight: 500;
-    margin-bottom: 50px;
 }
 
 label{

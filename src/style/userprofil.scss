@@ -1,0 +1,34 @@
+.Title{
+    display:flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    height: 200px;
+    width:350px;
+    margin: -15px 0 -15px -35px;
+    padding:35px;
+    background-size: cover;
+    h1{
+        position: relative;
+        top:$top;
+    }
+}
+
+
+.Profil{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:$top;
+}
+
+.ImgProfil{
+    margin-bottom:10px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+
+.Contact{
+    margin-top: calc(50px + 70px);
+}
