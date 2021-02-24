@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import GoBack from '../components/GoBack';
 import InfoGroup from '../components/InfoGroup';
 import projectData from '../data/projectData';
 
@@ -8,6 +9,7 @@ const UserProfil = () => {
 
     return (
         <div className="Container">
+            <GoBack />
             <div className="Title" style={{backgroundImage:`url(${data[0].background})`}}>
                 <h1>Contact</h1>
                 <div className="Profil">
